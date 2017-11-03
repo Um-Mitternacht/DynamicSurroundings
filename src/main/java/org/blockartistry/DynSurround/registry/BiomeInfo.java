@@ -215,11 +215,11 @@ public final class BiomeInfo implements Comparable<BiomeInfo> {
 	}
 
 	public float getFloatTemperature(@Nonnull final BlockPos pos) {
-		return this.biome.getFloatTemperature(pos);
+		return this.biome.getTemperature(pos);
 	}
 
 	public float getTemperature() {
-		return this.biome.getTemperature();
+		return this.biome.getDefaultTemperature();
 	}
 
 	public TempCategory getTempCategory() {

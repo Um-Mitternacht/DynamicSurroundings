@@ -69,12 +69,12 @@ public class FakeBiome extends Biome {
 	}
 
 	@Override
-	public float getFloatTemperature(@Nonnull final BlockPos pos) {
+	public float getTemperature(@Nonnull final BlockPos pos) {
 		return getTrueBiome().getFloatTemperature(pos);
 	}
 
 	@Override
-	public float getTemperature() {
+	public float getDefaultTemperature() {
 		return getTrueBiome().getTemperature();
 	}
 

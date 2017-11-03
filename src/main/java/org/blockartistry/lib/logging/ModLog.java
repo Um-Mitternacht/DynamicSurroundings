@@ -42,7 +42,7 @@ public class ModLog {
 	private boolean DEBUGGING;
 	private int traceMask;
 
-	private ModLog(@Nonnull final Logger logger) {
+	private ModLog(final Logger logger) {
 		this.logger = logger;
 		this.DEBUGGING = false;
 		this.traceMask = 0;

@@ -49,12 +49,12 @@ public class WTFFakeBiome extends FakeBiome {
 	}
 
 	@Override
-	public float getFloatTemperature(@Nonnull final BlockPos pos) {
+	public float getTemperature(@Nonnull final BlockPos pos) {
 		return 0F;
 	}
 
 	@Override
-	public float getTemperature() {
+	public float getDefaultTemperature() {
 		return 0F;
 	}
 
