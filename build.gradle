@@ -130,8 +130,8 @@ dependencies {
 	//deobfCompile "team.chisel:Chisel:MC1.11.2-0.0.11.16:api"
 	
 	compile 'albedo:albedo:0.1.3'    
-    compile 'tough-as-nails:ToughAsNails:1.12-3.0.0.68' 
-	compile 'biomes-o-plenty:BiomesOPlenty:1.12.2-7.0.1.2305' 
+    compile "com.github.glitchfiend.biomesoplenty:BiomesOPlenty:1.12-7.0.0.2291:deobf"
+    compile "com.github.glitchfiend.biomesoplenty:ToughAsNails:1.12-3.0.0.62:deobf"
 }
 
 processResources
